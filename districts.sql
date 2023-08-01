@@ -4,7 +4,7 @@
 --
 
 CREATE TABLE districts (
-	id bigserial NOT NULL,
+	id BIGSERIAL NOT NULL,
 	province_id int4 NOT NULL,
 	name varchar(255) NOT NULL,
 	CONSTRAINT districts_pkey PRIMARY KEY (id)

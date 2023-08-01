@@ -4,7 +4,7 @@
 --
 
 CREATE TABLE cities (
-	id bigserial NOT NULL,
+	id BIGSERIAL NOT NULL,
 	district_id int4 NOT NULL,
 	name varchar(255) NOT NULL,
 	CONSTRAINT cities_pkey PRIMARY KEY (id)
